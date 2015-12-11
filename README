@@ -1,0 +1,17 @@
+I'm working through Agda tutorial by Diviánszky
+
+http://people.inf.elte.hu/divip/AgdaTutorial/
+
+I had some trouble getting Agda to work with Emacs. I had to manually add the path to exec-path as follows:
+
+(setq exec-path (append exec-path '("/usr/texbin" "/Users/marchdown/Library/Haskell/bin")))
+
+~/Library/Haskell/bin is the defaul location cabal from Haskell Platform uses, but I had to look it up with `where agda`. So there. I keep most of my notes in Evernote, but some may leak here.
+
+This repo is mainly for code and LaTeX.
+
+If anyone other than me is reading this, I'm open to questions, suggestions, offers of collaboration &c.
+
+
+
+
